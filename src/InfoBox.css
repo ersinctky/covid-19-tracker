@@ -1,0 +1,72 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid greenyellow;
+}
+
+.infoBox--red {
+  border-color: red;
+}
+
+.infoBox__cases--green {
+  color: lightgreen !important;
+}
+
+.infoBox__cases {
+  color: red;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 0.5rem 0;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+
+.infobox--selected{
+  border-top: 10px solid lightgreen;
+}
+
+.infoBox--red{
+  border-color:red;
+}
+
+.infoBox--orange{
+  border-color:orange;
+}
+
+.infoBox__cases--orange {
+  color: red !important;
+}
+
+.infoBox__cases--green {
+  color: lightgreen !important;
+}
+
+@media (max-width: 400px) {
+  .infoBox__p{
+    font-size: 0.7rem;
+  }
+  .infoBox__cases {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 315px) {
+  .infoBox__p{
+    font-size: 0.5rem;
+  }
+  .infoBox__cases {
+    font-size: 0.6rem;
+  }
+}
